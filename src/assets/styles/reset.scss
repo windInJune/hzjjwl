@@ -1,0 +1,192 @@
+/* reset */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman",Georgia,Serif;    
+}
+
+
+/* 初始化标签在所有浏览器中的margin、padding值 */
+
+fieldset,
+img {
+    border: 0 none
+}
+
+
+/* 重置fieldset（表单分组）、图片的边框为0*/
+
+dl,
+ul,
+ol,
+menu,
+li {
+    list-style: none
+}
+
+
+/* 重置类表前导符号为onne,menu在HTML5中有效 */
+
+blockquote,
+q {
+    quotes: none
+}
+
+
+/* 重置嵌套引用的引号类型 */
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+
+/* 重置嵌套引用*/
+
+input,
+select,
+textarea,
+button {
+    vertical-align: middle;
+    outline: medium none;
+}
+
+button {
+    border: 0 none;
+    background-color: transparent;
+    cursor: pointer
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+    font-style: normal;
+    font-weight: normal
+}
+
+caption {
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+img {
+    vertical-align: middle
+}
+
+
+/* 设置页面文字等在拖动鼠标选中情况下的背景色与文字颜色 */
+
+::selection {
+    color: #fff;
+    background-color: #4C6E78;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #4C6E78;
+}
+
+
+/*清除浮动*/
+
+.clear {
+    clear: both;
+}
+
+
+/*清除浮动--推荐使用*/
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* 重置页面文字属性 */
+
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+    font-size: 12px;
+    line-height: 1;
+    font-family: "Times New Roman",Georgia,Serif;
+}
+
+
+/* 重置body 页面背景为白色 */
+
+body {
+    background: #fff;
+    text-align: center;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: .3rem;
+}
+
+.hide {
+    display: none;
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: -0.15rem;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+
+/*样式重置结束*/

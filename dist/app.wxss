@@ -1,0 +1,153 @@
+@import "common/vendor.wxss";
+
+@charset "UTF-8";
+page,
+._div,
+._dl,
+._dt,
+._dd,
+._ul,
+._ol,
+._li,
+._h1,
+._h2,
+._h3,
+._h4,
+._h5,
+._h6,
+._pre,
+._code,
+._form,
+._fieldset,
+._legend,
+._textarea,
+._p,
+._blockquote,
+._th,
+._td,
+._input,
+._select,
+._textarea,
+._button {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman",Georgia,Serif;
+}
+._fieldset,
+._img {
+  border: 0 none;
+}
+._dl,
+._ul,
+._ol,
+._menu,
+._li {
+  list-style: none;
+}
+._blockquote,
+._q {
+  quotes: none;
+}
+._blockquote:before,
+._blockquote:after,
+._q:before,
+._q:after {
+  content: '';
+  content: none;
+}
+._input,
+._select,
+._textarea,
+._button {
+  vertical-align: middle;
+  outline: medium none;
+}
+._button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+._address,
+._caption,
+._cite,
+._code,
+._dfn,
+._em,
+._var {
+  font-style: normal;
+  font-weight: normal;
+}
+._caption {
+  display: none;
+}
+._table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+._img {
+  vertical-align: middle;
+}
+::selection {
+  color: #fff;
+  background-color: #4C6E78;
+}
+::-moz-selection {
+  color: #fff;
+  background-color: #4C6E78;
+}
+.clear {
+  clear: both;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+page,
+._th,
+._td,
+._input,
+._select,
+._textarea,
+._button {
+  font-size: 24rpx;
+  line-height: 1;
+  font-family: "Times New Roman",Georgia,Serif;
+}
+page {
+  background: #fff;
+  text-align: center;
+}
+page,
+page {
+  height: 100%;
+  font-size: 30rpx;
+}
+.hide {
+  display: none;
+}
+.icon {
+  width: 100rpx;
+  height: 100rpx;
+  vertical-align: -15rpx;
+  fill: currentColor;
+  overflow: hidden;
+}
+.container {
+  min-height: 100%;
+  box-sizing: border-box;
+  background: url("https://image-1257827636.cos.ap-shanghai.myqcloud.com/listbg20181022094912.png") repeat;
+}
+image {
+  height: 100%;
+  width: 100%;
+}
+@font-face {
+  font-family: "Jade2B";
+  src: url("https://xcx-img.vdailian.com/studio_course/20180730151202.ttf");
+}

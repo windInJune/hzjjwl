@@ -1,0 +1,403 @@
+@import "../../common/vendor.wxss";
+
+@charset "UTF-8";
+.container {
+  overflow-x: hidden;
+}
+.container .topBox {
+  background: url("https://image-1257827636.cos.ap-shanghai.myqcloud.com/bannerbg20181022134434.png") no-repeat;
+  background-size: 100% auto;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  min-height: 352rpx;
+  width: 100%;
+}
+.container .topBox .inputBox {
+  position: relative;
+  width: 100%;
+  height: 70rpx;
+}
+.container .topBox .inputBox .starSearch {
+  width: 100%;
+  height: 70rpx;
+  background: white;
+  box-shadow: 0 5rpx 12rpx 1rpx rgba(157, 141, 253, 0.28);
+  border-radius: 35rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #9e9da3;
+  text-align: left;
+  padding: 0 64rpx;
+  box-sizing: border-box;
+}
+.container .topBox .inputBox .icon {
+  width: 34rpx;
+  height: 34rpx;
+  position: absolute;
+  top: 18rpx;
+  left: 16rpx;
+}
+.container .topBox .swiperBox {
+  height: 360rpx;
+  width: 100%;
+  margin-top: 30rpx;
+  position: relative;
+}
+.container .topBox .swiperBox .slide-image {
+  border-radius: 10rpx;
+}
+.container .myloveTitle {
+  padding: 0 30rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: white;
+  margin: 30rpx 0;
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+}
+.container .myloveBox {
+  height: 100rpx;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.container .myloveBox .myloveList {
+  width: 385rpx;
+  height: 100%;
+  background: #fff;
+  border-radius: 10rpx;
+  position: relative;
+  display: inline-block;
+  margin-right: 30rpx;
+  font-size: 25rpx;
+}
+.container .myloveBox .myloveList .starIcon {
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 10rpx;
+}
+.container .myloveBox .myloveList .starIcons {
+  border-radius: 50%;
+}
+.container .myloveBox .myloveList .starName {
+  position: absolute;
+  top: 18rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 28rpx;
+  padding-left: 110rpx;
+}
+.container .myloveBox .myloveList .getXb {
+  position: absolute;
+  bottom: 18rpx;
+  height: 30rpx;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  padding-left: 110rpx;
+}
+.container .myloveBox .myloveList .getXb .xbIcon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.container .myloveBox .myloveList .pickBtn {
+  width: 88rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(0deg, #6106ea 0%, #ec6dff 100%);
+  border-radius: 10rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 30rpx;
+}
+.container .navBox {
+  padding: 0 30rpx;
+  margin-top: 60rpx;
+  height: 46rpx;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.container .navBox .navCheck {
+  width: 324rpx;
+  display: flex;
+  align-items: center;
+}
+.container .navBox .navCheck .nav {
+  height: 46rpx;
+  width: 160rpx;
+  font-size: 30rpx;
+  text-align: center;
+  color: #fff;
+  line-height: 46rpx;
+  position: relative;
+  background: url("http://image-1257827636.cos.ap-shanghai.myqcloud.com/120181022141755.png") no-repeat;
+  background-size: 100% 100%;
+}
+.container .navBox .navCheck .month.active::before {
+  content: "\6708\699C";
+  position: absolute;
+  top: 0;
+  left: 8rpx;
+  width: 144rpx;
+  height: 60rpx;
+  line-height: 46rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 30rpx;
+  z-index: 999;
+  background: linear-gradient(0deg, #6106ea 0%, #ec6dff 100%);
+  box-shadow: 0 4rpx 16rpx 0 rgba(157, 140, 255, 0.68);
+  border-bottom-left-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+}
+.container .navBox .navCheck .week.active::before {
+  content: "\5468\699C";
+  position: absolute;
+  top: 0;
+  left: 8rpx;
+  width: 144rpx;
+  height: 60rpx;
+  line-height: 46rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 30rpx;
+  background: linear-gradient(0deg, #6106ea 0%, #ec6dff 100%);
+  box-shadow: 0 4rpx 16rpx 0 rgba(157, 140, 255, 0.68);
+  border-bottom-left-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+  z-index: 999;
+}
+.container .navBox .navRight {
+  color: #fff;
+  font-size: 26rpx;
+  border-radius: 14rpx;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.container .navBox .navRight .downIcon {
+  width: 19rpx;
+  height: 11rpx;
+  margin-left: 5rpx;
+}
+.container .listBox {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.container .listBox .list {
+  width: 100%;
+  height: 180rpx;
+  background: white;
+  box-shadow: 0 10rpx 10rpx 0 rgba(106, 86, 225, 0.42);
+  margin-bottom: 10rpx;
+  position: relative;
+}
+.container .listBox .list .rank {
+  position: absolute;
+  bottom: -40rpx;
+  left: -20rpx;
+  font-size: 200rpx;
+  font-family: Jade2B;
+  font-weight: 400;
+  color: #9d8cff;
+  opacity: 0.3;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  z-index: 9;
+}
+.container .listBox .list .headBox {
+  height: 100rpx;
+  width: 100rpx;
+  position: absolute;
+  z-index: 99;
+  left: 60rpx;
+  top: 40rpx;
+}
+.container .listBox .list .headBox .starImg {
+  position: absolute;
+  top: -18rpx;
+  left: -18rpx;
+  height: 134rpx;
+  width: 138rpx;
+  border-radius: 50%;
+}
+.container .listBox .list .headBox .firstIcon {
+  width: 55rpx;
+  height: 54rpx;
+  position: absolute;
+  left: -20rpx;
+  top: -20rpx;
+}
+.container .listBox .list .starName {
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: left;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: #333333;
+  position: absolute;
+  left: 190rpx;
+  top: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.container .listBox .list .getXb {
+  position: absolute;
+  left: 190rpx;
+  top: 100rpx;
+  height: 30rpx;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+}
+.container .listBox .list .getXb .xbIcon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.container .listBox .list .bestFans,
+.container .listBox .list .guardian {
+  width: 256rpx;
+  height: 28rpx;
+  background: #ffb9d4;
+  border-radius: 14rpx;
+  position: absolute;
+  left: 320rpx;
+}
+.container .listBox .list .bestFans {
+  top: 48rpx;
+}
+.container .listBox .list .bestFans .test {
+  position: absolute;
+  top: -10rpx;
+  left: 20rpx;
+  height: 24rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+}
+.container .listBox .list .bestFans .bestFansIcon {
+  position: absolute;
+  top: -40rpx;
+  right: 30rpx;
+  height: 82rpx;
+  width: 82rpx;
+}
+.container .listBox .list .guardian {
+  bottom: 36rpx;
+}
+.container .listBox .list .guardian .test {
+  position: absolute;
+  top: -10rpx;
+  left: 20rpx;
+  height: 24rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+}
+.container .listBox .list .pickBtn {
+  position: absolute;
+  top: 50rpx;
+  right: 20rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+.container .otherListBox {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30rpx;
+}
+.container .otherListBox .list {
+  width: 49%;
+  height: 180rpx;
+  background: white;
+  box-shadow: 0 10rpx 10rpx 0 rgba(106, 86, 225, 0.42);
+  margin-top: 10rpx;
+  position: relative;
+}
+.container .otherListBox .list .rank {
+  position: absolute;
+  bottom: -40rpx;
+  left: -20rpx;
+  font-size: 200rpx;
+  font-family: Jade2B;
+  font-weight: 400;
+  color: #9d8cff;
+  opacity: 0.3;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  z-index: 9;
+}
+.container .otherListBox .list .headBox {
+  height: 100rpx;
+  width: 100rpx;
+  position: absolute;
+  z-index: 99;
+  left: 20rpx;
+  top: 40rpx;
+}
+.container .otherListBox .list .starName {
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: left;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: #333333;
+  position: absolute;
+  left: 140rpx;
+  top: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.container .otherListBox .list .getXb {
+  position: absolute;
+  left: 140rpx;
+  top: 100rpx;
+  height: 30rpx;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+}
+.container .otherListBox .list .getXb .xbIcon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.container .otherListBox .list .pickBtn {
+  width: 88rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(0deg, #6106ea 0%, #ec6dff 100%);
+  border-radius: 10rpx;
+  position: absolute;
+  right: 10rpx;
+  bottom: 10rpx;
+}

@@ -1,0 +1,44 @@
+<template name="613ac55d">
+  <view class="_div data-v-2f03000a container">
+    <view class="_div data-v-2f03000a topBox">
+      <view class="_div data-v-2f03000a designation">
+        <image src="{{searchSrc}}" alt class="_img data-v-2f03000a"></image>
+        <view class="_div data-v-2f03000a name">NO.1 天下无双</view>
+      </view>
+      <view class="_div data-v-2f03000a starBanner">
+        <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" alt class="_img data-v-2f03000a"></image>
+        <view class="_div data-v-2f03000a bottomDiv">
+          <view class="_div data-v-2f03000a starBox">
+            <view class="_div data-v-2f03000a headBox">
+              <image class="_img data-v-2f03000a starImg" src="http://image-1257827636.cos.ap-shanghai.myqcloud.com/no20181022152854.gif" alt></image>
+              <image class="_img data-v-2f03000a starIcons" src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" alt></image>
+              <image src="{{firstIcon}}" alt class="_img data-v-2f03000a firstIcon"></image>
+            </view>
+            <view class="_div data-v-2f03000a starName">赵丽颖</view>
+            <view class="_div data-v-2f03000a getXb">
+              <image class="_img data-v-2f03000a xbIcon" src="{{xbSrc}}" alt></image> <label class="_span data-v-2f03000a">2312</label>
+            </view>
+            <view class="_div data-v-2f03000a noNum">NO.1</view>
+          </view>
+          <view class="_div data-v-2f03000a fansBox">
+            <view class="_div data-v-2f03000a bestFans"><label class="_span data-v-2f03000a">最佳星粉:</label></view>
+            <image class="_img data-v-2f03000a fansImg" src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" alt></image>
+            <view class="_div data-v-2f03000a intimacy">
+              <block wx:key="index" key="{{index}}" wx:for="{{[0,1,2,3,4]}}" wx:for-index="index" wx:for-item="item">
+                <image class="_img data-v-2f03000a loveicon" src="{{loveIcon}}" alt></image>
+              </block> <label class="_span data-v-2f03000a">亲密度：</label>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-2f03000a switchBox">
+        <view class="_div data-v-2f03000a switch"><label class="_span data-v-2f03000a">打榜提醒</label>
+          <switch checked class="_switch data-v-2f03000a" />
+        </view>
+        <view class="_div data-v-2f03000a rule"><label class="_span data-v-2f03000a">打榜规则</label>
+          <image src="{{ruleIcon}}" alt class="_img data-v-2f03000a"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

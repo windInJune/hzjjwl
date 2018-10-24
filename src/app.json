@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/space/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#A292FF",
+    "navigationBarTitleText": "星星传说",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#A292FF",
+    "color": "#000000",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "iconPath": "./static/images/home.png",
+      "selectedIconPath": "./static/images/homea.png",
+      "pagePath": "pages/home/main",
+      "text": "首页"
+    }, {
+      "iconPath": "./static/images/support.png",
+      "selectedIconPath": "./static/images/supporta.png",
+      "pagePath": "pages/home/main",
+      "text": "应援"
+    },{
+      "iconPath": "./static/images/me.png",
+      "selectedIconPath": "./static/images/mea.png",
+      "pagePath": "pages/logs/main",
+      "text": "我的"
+    }]
+  }
+}

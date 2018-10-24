@@ -1,0 +1,147 @@
+<template name="530be604">
+  <view class="_div data-v-66cd6e9e container">
+    <view class="_div data-v-66cd6e9e topBox">
+      <view class="_div data-v-66cd6e9e inputBox"><input class="_input data-v-66cd6e9e starSearch" placeholder="输入您想找的明星" type="text" disabled />
+        <image class="_img data-v-66cd6e9e icon" src="{{searchSrc}}" alt></image>
+      </view>
+      <swiper class="_swiper data-v-66cd6e9e swiperBox" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:key="index" key="{{index}}" wx:for="{{imgUrls}}" wx:for-index="index" wx:for-item="item">
+          <swiper-item class="_swiper-item data-v-66cd6e9e">
+            <image src="{{item}}" class="_image data-v-66cd6e9e slide-image" width="355" height="150"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="_div data-v-66cd6e9e myloveTitle">我的爱豆</view>
+    <view class="_div data-v-66cd6e9e myloveBox">
+      <view class="_div data-v-66cd6e9e myloveList">
+        <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" alt class="_img data-v-66cd6e9e starIcon"></image>
+        <view class="_div data-v-66cd6e9e starName">王源</view>
+        <view class="_div data-v-66cd6e9e getXb">
+          <image class="_img data-v-66cd6e9e xbIcon" src="{{xbSrc}}" alt></image> <label class="_span data-v-66cd6e9e">1314</label>
+        </view>
+        <view class="_div data-v-66cd6e9e pickBtn">pick</view>
+      </view>
+      <view class="_div data-v-66cd6e9e myloveList"></view>
+      <view class="_div data-v-66cd6e9e myloveList"></view>
+      <view class="_div data-v-66cd6e9e myloveList"></view>
+    </view>
+    <view class="_div data-v-66cd6e9e navBox">
+      <view class="_div data-v-66cd6e9e navCheck">
+        <view class="_div data-v-66cd6e9e nav week active">周榜</view>
+        <view class="_div data-v-66cd6e9e nav month ">月榜</view>
+      </view>
+      <view class="_div data-v-66cd6e9e navRight">
+        <image src="{{downIcon}}" alt class="_img data-v-66cd6e9e downIcon"></image> <label class="_span data-v-66cd6e9e">第5周 2018/09/24-2018/09/30</label>
+      </view>
+    </view>
+    <view class="_div data-v-66cd6e9e listBox">
+      <view class="_div data-v-66cd6e9e list">
+        <view class="_div data-v-66cd6e9e rank">1</view>
+        <view class="_div data-v-66cd6e9e headBox">
+          <image class="_img data-v-66cd6e9e starImg" src="http://image-1257827636.cos.ap-shanghai.myqcloud.com/no20181022152854.gif" alt></image>
+          <image src="{{xbSrc}}" alt class="_img data-v-66cd6e9e"></image>
+          <image src="{{firstIcon}}" alt class="_img data-v-66cd6e9e firstIcon"></image>
+        </view>
+        <view class="_div data-v-66cd6e9e starName">赵丽颖</view>
+        <view class="_div data-v-66cd6e9e getXb">
+          <image class="_img data-v-66cd6e9e xbIcon" src="{{xbSrc}}" alt></image> <label class="_span data-v-66cd6e9e">2312</label>
+        </view>
+        <view class="_div data-v-66cd6e9e bestFans">
+          <view class="_div data-v-66cd6e9e test">最佳星粉：</view>
+          <image src="{{xbSrc}}" alt class="_img data-v-66cd6e9e bestFansIcon"></image>
+        </view>
+        <view class="_div data-v-66cd6e9e guardian">
+          <view class="_div data-v-66cd6e9e test">守护者人数：123345人</view>
+        </view>
+        <image src="{{pickIcon}}" alt class="_img data-v-66cd6e9e pickBtn"></image>
+      </view>
+      <view class="_div data-v-66cd6e9e list">
+        <view class="_div data-v-66cd6e9e rank">2</view>
+        <view class="_div data-v-66cd6e9e headBox">
+          <image class="_img data-v-66cd6e9e starImg" src="http://image-1257827636.cos.ap-shanghai.myqcloud.com/no20181022152854.gif" alt></image>
+          <image src="{{xbSrc}}" alt class="_img data-v-66cd6e9e starIcons"></image>
+          <image src="{{twoIcon}}" alt class="_img data-v-66cd6e9e firstIcon"></image>
+        </view>
+        <view class="_div data-v-66cd6e9e starName">赵丽颖</view>
+        <view class="_div data-v-66cd6e9e getXb">
+          <image class="_img data-v-66cd6e9e xbIcon" src="{{xbSrc}}" alt></image> <label class="_span data-v-66cd6e9e">2312</label>
+        </view>
+        <view class="_div data-v-66cd6e9e bestFans">
+          <view class="_div data-v-66cd6e9e test">最佳星粉：</view>
+          <image src="{{xbSrc}}" alt class="_img data-v-66cd6e9e bestFansIcon"></image>
+        </view>
+        <view class="_div data-v-66cd6e9e guardian">
+          <view class="_div data-v-66cd6e9e test">守护者人数：123345人</view>
+        </view>
+        <image src="{{pickIcon}}" alt class="_img data-v-66cd6e9e pickBtn"></image>
+      </view>
+      <view class="_div data-v-66cd6e9e list">
+        <view class="_div data-v-66cd6e9e rank">3</view>
+        <view class="_div data-v-66cd6e9e headBox">
+          <image class="_img data-v-66cd6e9e starImg" src="http://image-1257827636.cos.ap-shanghai.myqcloud.com/no20181022152854.gif" alt></image>
+          <image src="{{xbSrc}}" alt class="_img data-v-66cd6e9e"></image>
+          <image src="{{threeIcon}}" alt class="_img data-v-66cd6e9e firstIcon"></image>
+        </view>
+        <view class="_div data-v-66cd6e9e starName">赵丽颖</view>
+        <view class="_div data-v-66cd6e9e getXb">
+          <image class="_img data-v-66cd6e9e xbIcon" src="{{xbSrc}}" alt></image> <label class="_span data-v-66cd6e9e">2312</label>
+        </view>
+        <view class="_div data-v-66cd6e9e bestFans">
+          <view class="_div data-v-66cd6e9e test">最佳星粉：</view>
+          <image src="{{xbSrc}}" alt class="_img data-v-66cd6e9e bestFansIcon"></image>
+        </view>
+        <view class="_div data-v-66cd6e9e guardian">
+          <view class="_div data-v-66cd6e9e test">守护者人数：123345人</view>
+        </view>
+        <image src="{{pickIcon}}" alt class="_img data-v-66cd6e9e pickBtn"></image>
+      </view>
+    </view>
+    <view class="_div data-v-66cd6e9e otherListBox">
+      <view class="_div data-v-66cd6e9e list">
+        <view class="_div data-v-66cd6e9e rank">4</view>
+        <view class="_div data-v-66cd6e9e headBox">
+          <image src="{{xbSrc}}" alt class="_img data-v-66cd6e9e"></image>
+        </view>
+        <view class="_div data-v-66cd6e9e starName">赵丽颖</view>
+        <view class="_div data-v-66cd6e9e getXb">
+          <image class="_img data-v-66cd6e9e xbIcon" src="{{xbSrc}}" alt></image> <label class="_span data-v-66cd6e9e">2312</label>
+        </view>
+        <view class="_div data-v-66cd6e9e pickBtn">pick</view>
+      </view>
+      <view class="_div data-v-66cd6e9e list">
+        <view class="_div data-v-66cd6e9e rank">5</view>
+        <view class="_div data-v-66cd6e9e headBox">
+          <image src="{{xbSrc}}" alt class="_img data-v-66cd6e9e"></image>
+        </view>
+        <view class="_div data-v-66cd6e9e starName">赵丽颖</view>
+        <view class="_div data-v-66cd6e9e getXb">
+          <image class="_img data-v-66cd6e9e xbIcon" src="{{xbSrc}}" alt></image> <label class="_span data-v-66cd6e9e">2312</label>
+        </view>
+        <view class="_div data-v-66cd6e9e pickBtn">pick</view>
+      </view>
+      <view class="_div data-v-66cd6e9e list">
+        <view class="_div data-v-66cd6e9e rank">6</view>
+        <view class="_div data-v-66cd6e9e headBox">
+          <image src="{{xbSrc}}" alt class="_img data-v-66cd6e9e"></image>
+        </view>
+        <view class="_div data-v-66cd6e9e starName">赵丽颖</view>
+        <view class="_div data-v-66cd6e9e getXb">
+          <image class="_img data-v-66cd6e9e xbIcon" src="{{xbSrc}}" alt></image> <label class="_span data-v-66cd6e9e">2312</label>
+        </view>
+        <view class="_div data-v-66cd6e9e pickBtn">pick</view>
+      </view>
+      <view class="_div data-v-66cd6e9e list">
+        <view class="_div data-v-66cd6e9e rank">7</view>
+        <view class="_div data-v-66cd6e9e headBox">
+          <image src="{{xbSrc}}" alt class="_img data-v-66cd6e9e"></image>
+        </view>
+        <view class="_div data-v-66cd6e9e starName">赵丽颖</view>
+        <view class="_div data-v-66cd6e9e getXb">
+          <image class="_img data-v-66cd6e9e xbIcon" src="{{xbSrc}}" alt></image> <label class="_span data-v-66cd6e9e">2312</label>
+        </view>
+        <view class="_div data-v-66cd6e9e pickBtn">pick</view>
+      </view>
+    </view>
+  </view>
+</template>
